@@ -9,14 +9,14 @@ import (
 	"io/ioutil"
 	"path/filepath"
 
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/fields"
-	"github.com/hexya-erp/hexya/src/models/operator"
-	"github.com/hexya-erp/hexya/src/server"
-	"github.com/hexya-erp/hexya/src/tools/b64image"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
-	"github.com/hexya-erp/pool/q"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/fields"
+	"github.com/gleke/hexya/src/models/operator"
+	"github.com/gleke/hexya/src/server"
+	"github.com/gleke/hexya/src/tools/b64image"
+	"github.com/gleke/pool/h"
+	"github.com/gleke/pool/m"
+	"github.com/gleke/pool/q"
 )
 
 // CompanyDependent is a context to add to make a field depend on the user's current company.

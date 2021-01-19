@@ -4,10 +4,10 @@
 package base
 
 import (
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/fields"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/pool/h"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/fields"
+	"github.com/gleke/hexya/src/models/types"
+	"github.com/gleke/pool/h"
 )
 
 var fields_CountryGroup = map[string]models.FieldDefinition{

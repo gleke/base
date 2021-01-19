@@ -6,11 +6,11 @@ package base
 import (
 	"fmt"
 
-	"github.com/hexya-erp/hexya/src/actions"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/types"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
+	"github.com/gleke/hexya/src/actions"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/types"
+	"github.com/gleke/pool/h"
+	"github.com/gleke/pool/m"
 )
 
 // TranslateFields opens the translation window for the given field

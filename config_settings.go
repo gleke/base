@@ -7,13 +7,13 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/hexya-addons/base/basetypes"
-	"github.com/hexya-erp/hexya/src/actions"
-	"github.com/hexya-erp/hexya/src/models"
-	"github.com/hexya-erp/hexya/src/models/fieldtype"
-	"github.com/hexya-erp/hexya/src/models/security"
-	"github.com/hexya-erp/pool/h"
-	"github.com/hexya-erp/pool/m"
+	"github.com/gleke/base/basetypes"
+	"github.com/gleke/hexya/src/actions"
+	"github.com/gleke/hexya/src/models"
+	"github.com/gleke/hexya/src/models/fieldtype"
+	"github.com/gleke/hexya/src/models/security"
+	"github.com/gleke/pool/h"
+	"github.com/gleke/pool/m"
 )
 
 func configSettings_Copy(rs m.ConfigSettingsSet, _ m.ConfigSettingsData) m.ConfigSettingsSet {
