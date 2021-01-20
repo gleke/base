@@ -3,7 +3,7 @@ module github.com/gleke/base
 go 1.15
 
 require (
-	github.com/gleke/hexya v0.1.7
+	github.com/gleke/hexya v0.1.8
 	github.com/gleke/pool v1.0.3
 	github.com/google/uuid v1.1.5
 	github.com/smartystreets/goconvey v1.6.4
