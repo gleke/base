@@ -162,6 +162,7 @@ Used by the some of the legal statements.`},
 	"Barcode":     fields.Char{},
 	"Active":      fields.Boolean{Required: true, Default: models.DefaultValue(true)},
 	"Employee":    fields.Boolean{Help: "Check this box if this contact is an Employee."},
+	"Supplier":    fields.Boolean{Help: "Check this box if this contact is an Supplier."},
 	"Function":    fields.Char{String: "Job Position"},
 	"Type": fields.Selection{
 		Selection: types.Selection{
